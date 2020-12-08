@@ -88,7 +88,7 @@ $error="Algo salio mal.Intente nueva mente.";
 <body>
 
 <!-- Start Switcher -->
-<?php include('includes/colorswitcher.php');?>
+<!--?php include('includes/colorswitcher.php');?-->
 <!-- /Switcher -->  
         
 <!--Header-->
@@ -99,11 +99,11 @@ $error="Algo salio mal.Intente nueva mente.";
   <div class="container">
     <div class="page-header_wrap">
       <div class="page-heading">
-        <h1>Post Testimonial</h1>
+        <h1>Postear un Testimonio</h1>
       </div>
       <ul class="coustom-breadcrumb">
         <li><a href="#">Inicio</a></li>
-        <li>Post Testimonial</li>
+        <li>Postear un Testimonio</li>
       </ul>
     </div>
   </div>

@@ -155,12 +155,12 @@ foreach($results as $result)
 											<td><?php 
 if($result->Status==0)
 {
-echo htmlentities('Not Confirmed yet');
+echo htmlentities('Aun no confirmada');
 } else if ($result->Status==1) {
-echo htmlentities('Confirmed');
+echo htmlentities('Confirmada');
 }
  else{
- 	echo htmlentities('Cancelled');
+ 	echo htmlentities('Cancelada');
  }
 										?></td>
 											<td><?php echo htmlentities($result->PostingDate);?></td>

@@ -17,7 +17,7 @@ $query -> bindParam(':status',$status, PDO::PARAM_STR);
 $query-> bindParam(':eid',$eid, PDO::PARAM_STR);
 $query -> execute();
 
-$msg="Testimonial Successfully Inacrive";
+$msg="Testimonio exitosamente desactivado";
 }
 
 
@@ -147,10 +147,10 @@ foreach($results as $result)
 											<td><?php echo htmlentities($result->PostingDate);?></td>
 										<td><?php if($result->status=="" || $result->status==0)
 {
-	?><a href="testimonials.php?aeid=<?php echo htmlentities($result->id);?>" onclick="return confirm('Realmente quieres desactivarlo')"> Inactivar</a>
+	?><a href="testimonials.php?aeid=<?php echo htmlentities($result->id);?>" onclick="return confirm('Realmente quieres Activarlo')"> Activar</a>
 <?php } else {?>
 
-<a href="testimonials.php?eid=<?php echo htmlentities($result->id);?>" onclick="return confirm('Realmente quieres Activarlo')"> Activar</a>
+<a href="testimonials.php?eid=<?php echo htmlentities($result->id);?>" onclick="return confirm('Realmente quieres desactivarlo')"> Desactivar</a>
 </td>
 <?php } ?></td>
 										</tr>

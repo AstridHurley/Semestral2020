@@ -57,7 +57,7 @@ else{
 <body>
 
 <!-- Start Switcher -->
-<?php include('includes/colorswitcher.php');?>
+<!--?php include('includes/colorswitcher.php');?-->
 <!-- /Switcher -->  
         
 <!--Header-->
@@ -70,11 +70,11 @@ else{
   <div class="container">
     <div class="page-header_wrap">
       <div class="page-heading">
-        <h1>My Booking</h1>
+        <h1>Mi Reserva</h1>
       </div>
       <ul class="coustom-breadcrumb">
         <li><a href="#">Inicio</a></li>
-        <li>My Booking</li>
+        <li>Mi Reserva</li>
       </ul>
     </div>
   </div>

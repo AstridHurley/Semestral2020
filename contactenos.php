@@ -88,7 +88,7 @@ $error="Algo salio mal.Intenta nuevamente porfavor";
 <body>
 
 <<!-- Start Switcher -->
-<?php include('includes/colorswitcher.php');?>
+<!--?php include('includes/colorswitcher.php');?-->
 <!-- /Switcher -->  
         
 <!--Header-->

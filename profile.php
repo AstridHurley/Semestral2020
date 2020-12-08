@@ -89,7 +89,7 @@ $msg="Perfil Actualizado exitosamente";
 <body>
 
 <!-- Start Switcher -->
-<?php include('includes/colorswitcher.php');?>
+<!--?php include('includes/colorswitcher.php');?-->
 <!-- /Switcher -->  
         
 <!--Header-->
@@ -100,11 +100,11 @@ $msg="Perfil Actualizado exitosamente";
   <div class="container">
     <div class="page-header_wrap">
       <div class="page-heading">
-        <h1>Your Profile</h1>
+        <h1>Tu Perfil</h1>
       </div>
       <ul class="coustom-breadcrumb">
         <li><a href="#">Inicio</a></li>
-        <li>Profile</li>
+        <li>Perfil</li>
       </ul>
     </div>
   </div>
@@ -171,7 +171,7 @@ foreach($results as $result)
               <input class="form-control white_bg" name="mobilenumber" value="<?php echo htmlentities($result->ContactNo);?>" id="phone-number" type="text" required>
             </div>
             <div class="form-group">
-              <label class="control-label">Date of Birth&nbsp;(dd/mm/yyyy)</label>
+              <label class="control-label">Fecha de nacimiento&nbsp;(dd/mm/yyyy)</label>
               <input class="form-control white_bg" value="<?php echo htmlentities($result->dob);?>" name="dob" placeholder="dd/mm/yyyy" id="birth-date" type="text" >
             </div>
             <div class="form-group">

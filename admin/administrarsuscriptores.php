@@ -96,7 +96,7 @@ $msg="Subscriber info deleted";
 										<th>#</th>
 												<th>Email Id</th>
 											<th>Fecha de suscripción</th>
-											<th>Action</th>
+											<th>Acción</th>
 										</tr>
 									</thead>
 									<tfoot>
@@ -104,7 +104,7 @@ $msg="Subscriber info deleted";
 										<th>#</th>
 										<th>Email Id</th>
 										<th>Fecha de suscripción</th>
-											<th>Action</th>
+											<th>Acción</th>
 										</tr>
 									</tfoot>
 									<tbody>

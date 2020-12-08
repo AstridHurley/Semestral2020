@@ -17,7 +17,7 @@ $query -> bindParam(':status',$status, PDO::PARAM_STR);
 $query-> bindParam(':eid',$eid, PDO::PARAM_STR);
 $query -> execute();
 
-$msg="Testimonial Successfully Inacrive";
+$msg="Testimonio exitosamente desactivado";
 }
 
 
@@ -35,7 +35,7 @@ $msg="Testimonial Successfully Inacrive";
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	
-	<title>Car Rental Portal |Admin Manage Queries   </title>
+	<title>ArrendadoraPTY|Administrar Consultas </title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">

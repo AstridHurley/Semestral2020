@@ -130,7 +130,7 @@ foreach($results as $result)
                    <p><b>Fecha de Posteo:</b><?php echo htmlentities($result->PostingDate);?> </p>
                 </div>
                 <?php if($result->status==1){ ?>
-                 <div class="vehicle_status"> <a class="btn outline btn-xs active-btn">Active</a>
+                 <div class="vehicle_status"> <a class="btn outline btn-xs active-btn">Activo</a>
 
                   <div class="clearfix"></div>
                   </div>

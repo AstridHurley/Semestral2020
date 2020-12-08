@@ -148,7 +148,7 @@ foreach($results as $result)
 <div class="col-sm-4">
 <input type="text" name="vehicletitle" class="form-control" value="<?php echo htmlentities($result->VehiclesTitle)?>" required>
 </div>
-<label class="col-sm-2 control-label">Select Brand<span style="color:red">*</span></label>
+<label class="col-sm-2 control-label">Seleccionar Marca<span style="color:red">*</span></label>
 <div class="col-sm-4">
 <select class="selectpicker" name="brandname" required>
 <option value="<?php echo htmlentities($result->bid);?>"><?php echo htmlentities($bdname=$result->BrandName); ?> </option>
