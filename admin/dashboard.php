@@ -173,7 +173,7 @@ $results6=$query6->fetchAll(PDO::FETCH_OBJ);
 $query=$query6->rowCount();
 ?>
 													<div class="stat-panel-number h1 "><?php echo htmlentities($query);?></div>
-													<div class="stat-panel-title text-uppercase">Queries</div>
+													<div class="stat-panel-title text-uppercase">Consultas</div>
 												</div>
 											</div>
 											<a href="administrarconsultadect.php" class="block-anchor panel-footer text-center">Todos los detalles &nbsp; <i class="fa fa-arrow-right"></i></a>

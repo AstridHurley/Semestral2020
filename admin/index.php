@@ -58,10 +58,10 @@ echo "<script type='text/javascript'> document.location = 'cambiarcontraseña.ph
 								<form method="post">
 
 									<label for="" class="text-uppercase text-sm">Nombre de usuario </label>
-									<input type="text" placeholder="Username" name="username" class="form-control mb">
+									<input type="text" placeholder="Nombre de usuario" name="username" class="form-control mb">
 
 									<label for="" class="text-uppercase text-sm">Contraseña</label>
-									<input type="password" placeholder="Password" name="password" class="form-control mb">
+									<input type="password" placeholder="Contraseña" name="password" class="form-control mb">
 
 								
 

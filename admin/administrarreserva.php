@@ -167,7 +167,7 @@ echo htmlentities('Confirmada');
 										<td><a href="administrarreserva.php?aeid=<?php echo htmlentities($result->id);?>" onclick="return confirm('¿Quieres confirmar esta reserva?')"> Confirmar</a> /
 
 
-<a href="administrarreserva.php?eid=<?php echo htmlentities($result->id);?>" onclick="return confirm('Realmente quieres cancelar esta reserva')"> Cancel</a>
+<a href="administrarreserva.php?eid=<?php echo htmlentities($result->id);?>" onclick="return confirm('Realmente quieres cancelar esta reserva')"> Cancelar</a>
 </td>
 
 										</tr>
